@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/assets/css/style.css">
+   <title>aplicativo previsao do tempo</title>
+</head>
+
+<body>
+   <div class="main">
+      <h1>previsao do tempo</h1>
+      <input  class="input-cidade" type="text" placeholder="digite a cidade">
+      <button onclick="coletarValor()" class="pesquisa">
+         <img class="btn" src="/assets/search-globe-svgrepo-com.svg" alt="">
+      </button>
+      <div class="box-media">
+         <h2 class=cidade>cidade</h2>
+         <h2 class="temperatura">temperatura</h2>
+         <div class="box-pequena">
+            <img class="previsao-do-tempo" src="https://openweathermap.org/img/wn/03n.png" alt="">
+            <p class="previsao">nuvens dispersas</p>
+         </div>
+         <p class="umidade">umidade de 85%</p>
+      </div>
+   </div>
+   <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
